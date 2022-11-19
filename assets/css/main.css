@@ -2706,20 +2706,18 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-image: url("../../images/noureas.jpg");
+				background-image: url("../../images/noureas.png");
 				background-repeat: no-repeat;
 				background-position: center;
-				width: 360px;
-				height: 332.46px;
+				background-size: 100% 100%;
 				background-color: #d6c755;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-image: url("../../images/anthill.jpg");
+				background-image: url("../../images/anthill.png");
 				background-repeat: no-repeat;
 				background-position: center;
-				width: 360px;
-				height: 332.46px;
+				background-size: 100% 100%;
 				background-color: #cf2d18;
 			}
 
