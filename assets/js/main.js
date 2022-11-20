@@ -3,6 +3,23 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+function copyPhone() {
+	var phone = "+33649395095"
+	 // Copy the text inside the text field
+	navigator.clipboard.writeText(phone);
+  
+	// Alert the copied text
+  	tooltip.innerHTML = "Copied: " + phone;
+  }
+
+  function copyMail() {
+	var mail = "nathan.leblond@proton.me"
+	 // Copy the text inside the text field
+	navigator.clipboard.writeText(mail);
+  
+	// Alert the copied text
+  	tooltip.innerHTML = "Copied: " + mail;
+  }
 
 (function($) {
 
